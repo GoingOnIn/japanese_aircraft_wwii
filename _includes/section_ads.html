@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        This is a little project made while waiting for a plane at Haneda Airport.
+        {% if site.repo_url %}
+        While this remains a useful resource, it will be maintained
+        <a href="{{ site.repo_url }}" class="alert-link">here on GitHub</a>.
+        {% endif %}
+        The information content is based on media from Wikipedia®  available under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en" class="alert-link">Creative Commons Attribution-ShareAlike License</a>.
+        {% if site.adsbygoogle.client %}
+        <h3 class="panel-title">
+          Like this site? You can support it by checking out some ads or posting on your favourite social network..
+        </h3>
+        {% endif %}
+      </div>
+      {% if site.adsbygoogle.client %}
+        <div class="panel-body">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- visual555 -->
+          <ins class="adsbygoogle"
+                style="display:inline-block;width:728px;height:90px"
+                data-ad-client="{{ site.adsbygoogle.client }}"
+                data-ad-slot="{{ site.adsbygoogle.slot }}"></ins>
+          <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

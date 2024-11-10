@@ -1,0 +1,78 @@
+.f-diplomata {
+  font-family: 'Diplomata SC', cursive !important;
+}
+.f-sancreek {
+  font-family: 'Sancreek', cursive !important;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-default .navbar-text {
+  font-family: 'Sancreek', cursive;
+  font-size: x-large;
+  margin-top: 7px;
+  margin-bottom: 0px;
+  color: #232c60;
+}
+
+.navbar-brand > img {
+  height: 50px;
+}
+
+.navbar.navbar-default {
+  background-color: #fff;
+}
+
+.dataTable th {
+  display: none;
+}
+
+.service-ija .display-ija {
+  display: inline !important;
+}
+
+.service-ijn .display-ijn {
+  display: inline !important;
+}
+
+.display-ija img,
+.display-ijn img {
+  height: 18px;
+}
+
+.service-name {
+  font-family: 'Diplomata SC', cursive;
+}
+
+.list-group-item {
+  background-color: #eeb3b396;
+}
+
+.table-striped > tbody > tr {
+  background-color: #c2b59785;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+  background-color: #eec97285;
+}
+
+.plane-media .media-object {
+  width: 300px;
+}
+
+.plane-media.visible-xs-block .media-object {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar-right {
+    margin: 0px;
+  }
+  .navbar-default .navbar-text {
+    font-size: larger;
+    margin-top: 12px;
+  }
+}

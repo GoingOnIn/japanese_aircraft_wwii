@@ -1,0 +1,44 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="{{ site.url }}">
+        <img alt="flag" src="/assets/flag.png">
+      </a>
+      <div class="navbar-text">
+        {{ site.title_long }}
+      </div>
+    </div>
+    <div class="nav navbar-nav navbar-right">
+      <form accept-charset="UTF-8" action="" class="search form-inline navbar-form" method="get" novalidate="novalidate">
+        <div class="control-group form-group select optional search_keyword_contains">
+          <label class="select optional control-label" for="keyword_contains">Search</label>
+          <input class="select optional form-control" id="keyword_contains" type="text" name="search[keyword_contains]"/>
+        </div>
+        <div class="control-group form-group select optional search_services_contains">
+          <label class="select optional control-label" for="services_contains">Service</label>
+          <select class="select optional form-control" id="services_contains" name="search[services_contains]">
+            <option value=""></option>
+            <option value="IJA">IJA</option>
+            <option value="IJN">IJN</option>
+          </select>
+        </div>
+        <div class="control-group form-group select optional search_category_equals">
+          <label class="select optional control-label" for="category_equals">Category</label>
+          <select class="select optional form-control" id="category_equals" name="search[category_equals]">
+            <option value=""></option>
+            <option value="Attack aircraft">Attack aircraft</option>
+            <option value="Bombers">Bombers</option>
+            <option value="Experimental aircraft">Experimental aircraft</option>
+            <option value="Fighters">Fighters</option>
+            <option value="Reconnaissance aircraft">Reconnaissance aircraft</option>
+            <option value="Trainers">Trainers</option>
+            <option value="Transports">Transports</option>
+          </select>
+        </div>
+        <a class="btn btn-warning" role="button" data-action="reset">
+          <i class="fa fa-undo" aria-hidden="true"></i>
+        </a>
+      </form>
+    </div>
+  </div>
+</nav>
