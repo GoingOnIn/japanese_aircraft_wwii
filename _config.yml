@@ -28,8 +28,6 @@ url: "japanese-aircraft-wwii.goingon.in" # the base hostname & protocol for your
 
 show_social_icons: true
 
-# google_analytics:
-
 # Disqus post comments
 disqus_shortname:
 
@@ -57,11 +55,9 @@ bitcoin_url:
 paypal_url:
 flattr_button:
 
-adsbygoogle:
-   client:
-   slot:
-#   client: ca-pub-8429465058616611
-#   slot: 1715866040
+# google_analytics: "UA-XXXXX-X"
+# google_ad_client: "ca-pub-8429465058616611"
+# google_ad_slot: "XXXXX"
 
 # Build settings
 markdown: kramdown
@@ -88,4 +84,4 @@ defaults:
     scope:
       path: ""
     values:
-      layout: "project"
+      layout: "default"
