@@ -7,7 +7,7 @@ It was created as fast and simple reference for history enthusiasts and scale mo
 The information content is largely based on media from Wikipedia®  available under the
 [Creative Commons Attribution-ShareAlike License](https://creativecommons.org/licenses/by-sa/4.0/deed.en).
 
-[![web_example](./assets/web_example.png)](https://japanese-aircraft-wwii.goingon.in/)
+[![web_example](/assets/web_example.png)](https://japanese-aircraft-wwii.goingon.in/)
 
 ## Credits and References
 
