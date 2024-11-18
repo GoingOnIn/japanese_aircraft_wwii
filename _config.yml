@@ -22,7 +22,7 @@ description: >-
   Explore detailed profiles, specifications, and history of Japan's WWII aircraft, all in one easy-to-navigate resource.
 keywords: "IJN aircraft reference, IJA aircraft reference, IJNAS, IJAAS, WWII Japanese aircraft, World War II, Second Sino-Japanese War"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "japanese-aircraft-wwii.goingon.in" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://japanese-aircraft-wwii.goingon.in" # the base hostname & protocol for your site, e.g. http://example.com
 
 # repo_url:
 # feed_path: "/assets/atom.xml"
