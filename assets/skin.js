@@ -56,7 +56,7 @@
       return instance.catalog_table.DataTable({
         autoWidth: false,
         ajax: {
-          url: './assets/data.json',
+          url: './cache/data.json',
           dataSrc: ''
         },
         columns: [
@@ -82,7 +82,7 @@
         },
         rowCallback: function(row, data, index) {
           var url = data.url;
-          var local_image_url = 'assets/images/' + (data.image_local_name || 'undefined.jpg');
+          var local_image_url = 'cache/images/' + (data.image_local_name || 'undefined.jpg');
           var product_search_term = data.title.replace(' ', '+');
           var scalemates_url = 'https://www.scalemates.com/search.php?fkSECTION[]=Kits&q=' + product_search_term;
           var google_url = 'https://www.google.com/search?q=' + product_search_term;
